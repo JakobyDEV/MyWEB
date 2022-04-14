@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "..\\RandomShit"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "MyWEB"
+  }
+}
