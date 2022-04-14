@@ -1,47 +1,85 @@
-* {
-  box-sizing: border-box;
+.welcome {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f96e79;
+  font-size: 50px;
 }
-
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
+.welcome-2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f96e79;
   font-size: 30px;
-  text-align: center;
+}
+.text {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f96e79;
+  font-size: 20px;
 }
 
-.about-me {
-  background-color: #bd3e3e;
-  padding: 10px;
-  flex: 50%;
-  border-style: solid;
-  border-width: 2px;
-}
-.contact {
-  background-color: rgb(233, 255, 30);
-  padding: 10px;
-  flex: 50%;
-  border-style: solid;
-  border-width: 2px;
-}
-
-/* Responsive layout - makes a one column-layout instead of a two-column layout */
-@media (max-width: 800px) {
-  .flex-item-right,
-  .flex-item-left {
-    flex: 100%;
-  }
+.navbar {
+  overflow: hidden;
+  background-color: #333;
 }
 body {
-  background-color: bisque;
+  background-image: url("/Background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #fa776f;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #48b9bf;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 h1 {
-  background-color: bisque;
-  font-size: 40px;
-  font-family: "Comic Sans MS";
-  margin: auto;
-  padding: auto;
-}
-.face {
-  background-color: bisque;
-  width: 250px;
+  font-family: Garamond, serif;
 }
