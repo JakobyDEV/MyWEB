@@ -1,34 +1,47 @@
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  padding: 10px;
-  grid-gap: 15%;
+* {
+  box-sizing: border-box;
 }
-.grid-item {
-  color: #69bb86;
-  background-color: #03675a;
-  padding: 20px;
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
   font-size: 30px;
   text-align: center;
 }
-#title {
-  color: #69bb86;
-  background-color: #03675a;
-  font-size: 50px;
-  text-align: center;
-  border: #03675a;
-  padding: "auto";
-  margin: "auto";
+
+.about-me {
+  background-color: #bd3e3e;
+  padding: 10px;
+  flex: 50%;
+  border-style: solid;
+  border-width: 2px;
 }
-p {
-  margin-top: 25px;
-  margin-bottom: 25px;
-  margin-left: 20px;
-  margin-right: 20px;
+.contact {
+  background-color: rgb(233, 255, 30);
+  padding: 10px;
+  flex: 50%;
+  border-style: solid;
+  border-width: 2px;
 }
-#textop {
-  text-align: center;
-  padding: "auto";
-  margin: "auto";
-  scroll-margin: 10px;
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .flex-item-right,
+  .flex-item-left {
+    flex: 100%;
+  }
+}
+body {
+  background-color: bisque;
+}
+h1 {
+  background-color: bisque;
+  font-size: 40px;
+  font-family: "Comic Sans MS";
+  margin: auto;
+  padding: auto;
+}
+.face {
+  background-color: bisque;
+  width: 250px;
 }
