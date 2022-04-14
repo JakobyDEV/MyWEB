@@ -1,12 +1,8 @@
 MyWEB
 My personal website ment to help me promote myself
 
-Todo
+##done: main layout, background, hover animations, linked up twitter, github and gmail 
 
-~~create design~~ done, next step creating a logo
+##todo: adding linkedin account and my phone number,  layout for about me and sources tabs, text about me, fill up the sources for all the images, foot of the page, socialmedia logos
 
-prepera images and text I want to display
-
-watch tons of videos and read thousands of articles
-
-code it
+###maybe: hover animation that looks like a growing tree 
