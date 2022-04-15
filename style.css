@@ -1,17 +1,28 @@
 .welcome {
   font-family: Arial, Helvetica, sans-serif;
-  color: #f96e79;
+  color: #ffffff;
   font-size: 50px;
+  margin: 10px;
 }
 .welcome-2 {
   font-family: Arial, Helvetica, sans-serif;
-  color: #f96e79;
+  color: #ffffff;
   font-size: 30px;
 }
 .text {
   font-family: Arial, Helvetica, sans-serif;
-  color: #f96e79;
+  color: #ffffff;
   font-size: 20px;
+}
+.bottom {
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+  right: 30%;
+  background-color: #333;
+  text-align: center;
+  font-size: 18px;
+  padding: 15px;
 }
 
 .navbar {
